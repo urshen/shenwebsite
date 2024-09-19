@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shena Pagao</h1>
+        <p>BSIS Student</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>A clingy and tamad girl.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Read</li>
+            <li>Writer</li>
+            <li>Singing/li>
+            <li>Cooking</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Spes Beneficary</h3>
+            <p>City Peso</p>
+    
+        </div>
+        <div class="job">
+            <h3>Job Title 2</h3>
+            <p>Company Name | Start Date - End Date</p>
+            <p>Job description and your key achievements or responsibilities.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="school">
+            <h3>Degree Name</h3>
+            <p>Institution Name | Graduation Year</p>
+            <p>Relevant coursework or achievements.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="confirmation" class="hidden">Your message has been sent!</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
